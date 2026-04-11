@@ -27,7 +27,7 @@ class Pipeline:
 	def pth2onnx(self):
 		self.model.export(format='onnx', opset=12, simplify=False, dynamic=False)
 
-	def onnx2rknn(self):
+	def onnx2cix(self):
 		
 
 		

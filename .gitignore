@@ -1,0 +1,9 @@
+*.cix
+*.pt
+*.onnx
+*.Identifier
+/datasets
+/out
+/coco128
+__pycache__
+/onnx_model
